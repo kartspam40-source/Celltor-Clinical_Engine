@@ -151,3 +151,5 @@ with tab_tech:
     st.markdown("### Inverse-Probability Sample Reweighting")
     st.write("Variants are assigned a fairness weight during training to equalize ancestral influence.")
     st.latex(r"W_i = \begin{cases} \frac{\mu_{EUR}}{\mu_{AFR}} & \text{if } AFR\_AF < EUR\_AF \\ 1.0 & \text{otherwise} \end{cases}")
+
+# triggering a fresh build
